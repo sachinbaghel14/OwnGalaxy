@@ -1,0 +1,147 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0; /* Margin bottom by footer height */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto; /* Set the fixed height of the footer here */
+  background-color: #0b0704;
+  color: #FFFFFF;
+  padding-left: 1.25em;
+  padding-top: 1.25em;
+  padding-right: 1.25em;
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.container-fluid-custom {
+  width: auto;
+  padding: 0 0.9375em;
+  text-align: center;
+  display: inline-block;
+}
+
+/* First Column */
+.start{
+  text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 18.875em;
+  height: auto;
+}
+
+/* Social */
+#social a{
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 0.9375em;
+  font-size: 1.5625em;
+}
+
+#social a:hover{
+  color: rgba(255, 255, 255, 1.0);
+  padding-right: 0.9375em;
+  font-size: 1.625em;
+}
+
+/* Copyright */
+.copyright{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
+  color:#d1d1d1;
+  text-align: center;
+}
+
+.copyright a{
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.copyright a:hover{
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.copyright p{
+  padding-bottom: 14px;
+}
+
+/* Middle Column */
+.heading{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75em;
+  text-align: center;
+  /* font-size: 2vw; */
+}
+
+.forewords,.address,.email{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  /* font-size: 1.1vw; */
+}
+
+/* End Column */
+#links{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125em;
+  text-align: center;
+  color: white;
+  word-spacing: 0.225em;
+  letter-spacing: 0.1875em;
+  /* font-size: 1.2vw; */
+}
+
+.links a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: right;
+  color: white;
+  letter-spacing: 0.1875em;
+  /* font-size: 1.1vw; */
+}
+
+.links a:hover{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0625em;
+  letter-spacing: 0.1975em;
+  color: white;
+}
+
+@media only screen and (max-width:990px) {
+  #social a{
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 0.625em;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  #social a{
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 0.3125em;
+    font-size: 1.5em;
+  }
+}
+
+/* @media screen and (min-width: 30em) and (orientation: landscape){
+  .footer{
+    height: 21.875em;
+  }
+}
+
+@media screen and (min-width: 30em) and (orientation: portrait){
+  .footer{
+    height: 21.875em;
+  }
+} */

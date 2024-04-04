@@ -1,0 +1,148 @@
+/* Disclaimer Bar */
+.disclaimer{
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 0em;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 290px) {
+  .disclaimer{
+    font-size: 0.44em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .disclaimer{
+    font-size: 0.55em;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .disclaimer{
+    font-size: 0.6em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+}
+
+.disclaimer p{
+  margin-bottom: 0em;
+}
+
+.disclaimer a{
+  color:black;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Colour */
+.navbar-custom{
+  background-color: #0b0704 ;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 3;
+}
+
+/* Navbar Text Colour */
+.navbar-custom a{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.1875em;
+  word-wrap: break-word;
+  font-size: 1em;
+}
+
+.navbar-custom a:hover{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.125em;
+  word-wrap: break-word;
+  font-weight: bolder;
+}
+
+/* Navbar Centered Elements */
+.navbar-center{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-center {
+      position: relative;
+      top: 65%;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+  .nav-icons{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translatex(-50%);
+    display: inline-block;
+  }
+}
+
+/* Navbar Right Aligned Icons */
+.nav-icons li{
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+  padding-bottom: 0em;
+}
+
+/* Dropdown CSS */
+.dropdown-content a{
+  background-color: #0b0704;
+  border-style: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9375em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  word-wrap: break-word;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+}
+
+
+.dropdown-content a:hover{
+  background-color: #0b0704;
+  color: #ffffff;
+  letter-spacing: 0.1875em;
+  word-wrap: break-word;
+  font-weight: bolder;
+}
+
+.dropdown-menu{
+  padding: 0em;
+  margin: 0em;
+  position: relative;
+  transform: translate(-30%,0);
+}
+
+.icon-menu{
+    transform: translate(-33%,10%);
+}
+
+.dropdown-divider{
+  padding: 0em;
+  margin: 0em;
+}
+
+/* Sandwich Button */
+.toggler-custom .navbar-toggler{
+  border-color: white;
+}
+
+.toggler-custom .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

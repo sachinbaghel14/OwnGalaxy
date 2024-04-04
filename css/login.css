@@ -1,0 +1,73 @@
+.login-form{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.login-form p{
+  color: #EEEEEE;
+}
+
+.login-form h2{
+  color: #EEEEEE;
+  font-size: 1.8em;
+}
+
+.login-form input {
+   padding: 0.4em 1.2em;
+   margin: 0.5em 0;
+   box-sizing: border-box;
+   border-radius: 0.3125em;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   outline: none;
+   color: #0b0704;
+   width:100%;
+   margin-bottom: 0.8em;
+   filter: none;
+ }
+
+ .login-form input:focus {
+   border: 0.1875em solid #ddd;
+ }
+
+ .login-form label{
+   color:#EEEEEE;
+ }
+
+ .login-form input[type=submit] {
+   padding: 0.8em 1.5em 0.8em 1.5em;
+   color: #FFFFFF;
+   background-color: inherit;
+   border-radius: 0.25em;
+   border: 0.12em solid #EEEEEE;
+   width: 7em;
+ }
+
+ .login-form input[type=submit]:hover {
+   text-shadow: 0em 0.02em 0.02em #EEEEEE;
+ }
+
+ .login-form small{
+   color:#EEEEEE;
+ }
+
+ .logo-form{
+   padding-bottom: 2em;
+ }
+
+form
+{
+    display: block;
+    text-align: center;
+}
+
+div.login{
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+}
+
+input[type=checkbox]{
+  width: 1%;
+}

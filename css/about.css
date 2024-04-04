@@ -1,0 +1,12 @@
+.bg-jumbo h1, .bg-jumbo p{
+  color:#EEEEEE;
+}
+
+.bg-jumbo hr{
+  background-color: #aaa;
+}
+
+.bg-jumbo{
+  border-radius: 2px;
+  border-color: #eee;
+}

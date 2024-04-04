@@ -1,0 +1,27 @@
+ReWriteEngine On
+
+ReWriteRule ^about?$ /owngalaxy/about.php [L]
+ReWriteRule ^account?$ /owngalaxy/account.php [L]
+ReWriteRule ^buynow?$ /owngalaxy/buynow.php [L]
+ReWriteRule ^buymoon?$ /owngalaxy/buy.php [L]
+ReWriteRule ^cart?$ /owngalaxy/cart.php [L]
+ReWriteRule ^contact?$ /owngalaxy/contact.php [L]
+ReWriteRule ^faq?$ /owngalaxy/faq.php [L]
+ReWriteRule ^index?$ /owngalaxy/index.php [L]
+ReWriteRule ^lightbox?$ /owngalaxy/product.html [L]
+ReWriteRule ^login?$ /owngalaxy/login.php [L]
+ReWriteRule ^logout?$ /owngalaxy/logout.php [L]
+ReWriteRule ^lunarland?$ /owngalaxy/whatis.php [L]
+ReWriteRule ^privacy?$ /owngalaxy/privacy.php [L]
+ReWriteRule ^process?$ /owngalaxy/process.php [L]
+ReWriteRule ^product?$ /owngalaxy/product.php [L]
+ReWriteRule ^product#productDetails?$ /owngalaxy/product.php/#productDetails [L]
+ReWriteRule ^register?$ /owngalaxy/register.php [L]
+ReWriteRule ^rem?$ /owngalaxy/remove.php [L]
+ReWriteRule ^work?$ /owngalaxy/work.php [L]
+ReWriteRule ^transaction?$ /owngalaxy/payment/transaction.php [L]
+
+
+ReWriteRule ^internships/internquery([^/\.]+)?$ /owngalaxy/internships.php?internquery=$1 [L]
+
+ReWriteRule ^login/([^/\.]+)?$ /owngalaxy/login.php?login=$1 [L]

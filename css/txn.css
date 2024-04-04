@@ -1,0 +1,28 @@
+.table {
+    border-radius: 5px;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.table tr{
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin: 0px auto;
+  display: block;
+}
+
+input{
+  outline: none;
+  border: none;
+  background-color: #e8ecef;
+}
+
+.back{
+  background-color: #e8ecef;
+}
+
+.container{
+  padding: 2rem 2rem 2rem 2rem;
+}

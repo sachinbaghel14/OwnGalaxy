@@ -1,0 +1,60 @@
+/* Header */
+.privacy{
+  margin-bottom: 0em;
+  background-color: #EEEEEE;
+  color:#0b0704;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.title{
+  margin-bottom: 0em;
+}
+
+.title p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2.2em;
+  font-weight: lighter;
+  letter-spacing: .0625em;
+  text-align: center;
+  margin-bottom: 0em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+}
+
+.hr-light{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height:0.0525em;
+  border-width:0;
+  color:#BABBBC;
+}
+
+.hr-dark{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height:0.0525em;
+  border-width:0px;
+  background-color:#0b0704;
+}
+
+.jumbo-content{
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+  margin-bottom: 0px !important;
+  background-color: #EEEEEE !important;
+  text-align: justify;
+}
+
+.line-heading{
+  font-size: 1.5em;
+}
+
+.jumbo-content a{
+  color: #0b0704 !important;
+}

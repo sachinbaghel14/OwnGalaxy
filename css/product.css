@@ -1,0 +1,123 @@
+.row-p{
+  margin: 1.2em 1.2em 1.2em 1.2em;
+  color: #212429;
+}
+
+.col-p{
+  padding: 2rem 2rem 2rem 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.col-p h3, .col-p h5, .col-p p{
+  font-weight: 400;
+}
+
+.col-p h3{
+  font-size: 2.2vw;
+  letter-spacing: 0.025em;
+}
+
+.col-p h5{
+  padding: 0rem 1rem 0rem 0rem;
+  letter-spacing: 0.03em;
+  color: #3c3c3c;
+}
+
+.col-p p{
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+@media screen and (max-width:500px){
+  .col-p h3{
+    font-size: 5.5vw;
+    font-weight: 500;
+  }
+}
+
+input[type=submit].productType {
+  margin: 0rem;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+  width: 7rem;
+  background-color: #1B1C1D;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  border: none;
+}
+
+.col-p-img img{
+  height:6em;
+  width:4.25em;
+  margin: 1em 0.25em 0.25em 0em;
+  cursor: pointer;
+  border:none;
+  padding: 0rem;
+}
+
+@media screen and (max-width:420px){
+  .col-p-img img{
+    height:3.5em;
+    width:5em;
+    margin: 1em 0.2em 0.2em 0em;
+    cursor: pointer;
+    border:none;
+    padding: 0rem;
+  }
+}
+
+.customiseProduct button{
+  height: 3.5em;
+  width: 4.2em;
+  margin: 0em 0.25em 0.25em 0em;
+}
+
+.proceedButton button{
+  width: 7rem;
+  background-color: #1B1C1D;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+}
+
+.proceedButton button:hover{
+  color: #FFFFFF;
+}
+
+.purchaseDetails label{
+  display: block;
+  margin-bottom: 0rem;
+}
+
+ .cc-selector input{
+     margin:0;padding:0;
+     -webkit-appearance:none;
+        -moz-appearance:none;
+             appearance:none;
+ }
+ .custom1{background-image:url(../images/custom1.jpg);}
+ .custom2{background-image:url(../images/custom2.jpg);}
+ .custom3{background-image:url(../images/custom3.jpg);}
+
+ .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+ .cc-selector input:checked +.drinkcard-cc{
+     -webkit-filter: none;
+        -moz-filter: none;
+             filter: none;
+ }
+ .drinkcard-cc{
+     cursor:pointer;
+     background-size:contain;
+     background-repeat:no-repeat;
+     display:inline-block;
+     width:100px;height:70px;
+     -webkit-transition: all 100ms ease-in;
+        -moz-transition: all 100ms ease-in;
+             transition: all 100ms ease-in;
+     -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+        -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+             filter: brightness(1.8) grayscale(1) opacity(.7);
+ }
+ .drinkcard-cc:hover{
+     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+        -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+             filter: brightness(1.2) grayscale(.5) opacity(.9);
+ }

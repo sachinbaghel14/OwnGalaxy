@@ -1,0 +1,111 @@
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 3em 3em 3em 3em;
+  border: 0.18em solid #DDDDDD;
+  border-radius: 1.2em;
+}
+
+.centered h1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.08em;
+  margin: 0em;
+}
+
+.centered p{
+  margin: 0.1em 0em 1.2em 0em;
+}
+
+.centered input {
+   padding: 0.5em 1em 0.5em 1em;
+   margin: 0.5em 0;
+   box-sizing: border-box;
+   border-radius: 0.4em;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   outline: none;
+   color: #0b0704;
+   width:100%;
+   margin-bottom: 0.8em;
+   filter: none;
+   font-size: 1em;
+ }
+
+ .centered input:focus {
+   border: 0.1875em solid #ddd;
+ }
+
+ .centered input[type=submit] {
+   padding: 1em 1.2em 1em 1.2em;
+   color: #FFFFFF;
+   background-color: inherit;
+   border-radius: 0.25em;
+   border: 0.12em solid #EEEEEE;
+   width: 7em;
+   text-align: center;
+ }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  bottom: 30%;
+  width: 100%;
+  text-align: center;
+  margin: 0em 0em 4em 0em;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+@media screen and (orientation:portrait) and (max-width: 500px) {
+    .centered {
+      width: 80%;
+    }
+  }
+
+@media screen and (orientation:landscape) and (max-height: 500px) {
+    .centered {
+      height: auto;
+    }
+  }
